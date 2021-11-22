@@ -37,7 +37,6 @@ namespace IKEA_BaigiamasisDarbas.Page
             return this;
         }
 
-        // 4 testui
         public SortByFiltersPage SortByHighestPrice()
         {
             dropDownSortBy.Click(); 
@@ -52,7 +51,6 @@ namespace IKEA_BaigiamasisDarbas.Page
             return this;
         }
 
-        // 5 testui
         public SortByFiltersPage SortByColors()
         {
             toChooseColor.Click();
@@ -66,7 +64,6 @@ namespace IKEA_BaigiamasisDarbas.Page
             return this;
         }
 
-        // 6 testui
         public SortByFiltersPage SortByPrice()
         { 
             toChoosePrice.Click();
