@@ -31,7 +31,6 @@ namespace IKEA_BaigiamasisDarbas.Page
             return this;
         }
 
-        // 1 testui
         public LoginAndRegisterPage RegisterEmailInput(string registerEmail)
         {
             registerEmailInput.Clear();
@@ -46,7 +45,6 @@ namespace IKEA_BaigiamasisDarbas.Page
             return this;
         }
 
-        // 7 testui
         private LoginAndRegisterPage EnterEmail(string email)
         {
             emailInput.Clear();   
@@ -73,11 +71,5 @@ namespace IKEA_BaigiamasisDarbas.Page
             buttonToConfirmLogin.Click();
             return this;
         }
-
-        //public LoginAndRegisterPage ClickWishListButton()
-        //{
-        //    buttonWishList.Click();
-        //    return this;
-        //}
     }
 }
