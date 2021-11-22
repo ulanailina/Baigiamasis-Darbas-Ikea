@@ -11,7 +11,6 @@ namespace IKEA_BaigiamasisDarbas.Page
 {
     public class HomePage : BasePage
     {
-
         private const string PageAddress = "https://www.ikea.lt/lt";
         private const string room = "Vonia";
         private IWebElement buttonToCreateAccount => Driver.FindElement(By.CssSelector("#hideOnScroll > ul.navbar.navbar-nav.py-0.ml-lg-auto.align-items-start.px-0.userMenu > li.nav-item.nav-link.pr-0 > a"));
@@ -34,14 +33,12 @@ namespace IKEA_BaigiamasisDarbas.Page
             return this;
         }
         
-        // 1 test
         public HomePage ClickLoginButton()
         {
             buttonToCreateAccount.Click();
             return this;
         }
 
-        // 3 testui
         public HomePage SearchFieldInput(string baldas)
         {
             searchField.Clear();
@@ -56,22 +53,11 @@ namespace IKEA_BaigiamasisDarbas.Page
             return this;
         }
 
-        // 2 testui
         public HomePage SelectRoomForItem()
         {
             selectRoom.Click();
             selectSetOfRoom.Click();
             return this;
         }
-
-
-
-
-
-        //public HomePage ClickWishListButton()
-        //{
-        //    buttonWishList.Click();
-        //    return this;
-        //}
     }
 }
