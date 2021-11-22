@@ -17,7 +17,6 @@ namespace IKEA_BaigiamasisDarbas.Test
         public static IWebDriver driver;
         public static HomePage _homePage;  
         public static LoginAndRegisterPage _loginAndRegisterPage;
-        public static MyAccountPage _myAccountPage;
         public static SortByFiltersPage _sortByFiltersPage;
         public static ItemFromRoomPage _itemFromRoomPage;      
 
@@ -28,7 +27,6 @@ namespace IKEA_BaigiamasisDarbas.Test
             _homePage = new HomePage(driver);
             _loginAndRegisterPage = new LoginAndRegisterPage(driver);
             _sortByFiltersPage = new SortByFiltersPage(driver);
-            _myAccountPage = new MyAccountPage(driver);
             _itemFromRoomPage = new ItemFromRoomPage(driver);
 
             //Console.OutputEncoding = Encoding.UTF8;
