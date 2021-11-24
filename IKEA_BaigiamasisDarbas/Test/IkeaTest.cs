@@ -75,6 +75,7 @@ namespace IKEA_BaigiamasisDarbas.Test
             _loginAndRegisterPage.NavigateToDefaultPage()
                 .EnterLoginData("ulanaitee.lina@gmail.com", "Ikea1")
                 .ClickButtonToConfirmLogin();
+                _homePage.NavigateToDefaultPage();
                 //.ClickWishListButton();
         }
     }
